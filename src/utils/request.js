@@ -1,6 +1,6 @@
 import axios from 'axios'
-import {Notification} from 'element-ui'
-import {getToken} from '@/utils/auth'
+import { Notification } from 'element-ui'
+import { getToken } from '@/utils/auth'
 import Config from '@/settings'
 import Cookies from 'js-cookie'
 import store from '../store'

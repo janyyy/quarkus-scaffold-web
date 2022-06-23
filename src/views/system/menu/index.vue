@@ -153,13 +153,13 @@
 <script>
 import crudMenu from '@/api/system/menu'
 import IconSelect from '@/components/IconSelect'
-import Treeselect, {LOAD_CHILDREN_OPTIONS} from '@riophae/vue-treeselect'
+import Treeselect, { LOAD_CHILDREN_OPTIONS } from '@riophae/vue-treeselect'
 import '@riophae/vue-treeselect/dist/vue-treeselect.css'
-import CRUD, {crud, form, header, presenter} from '@crud/crud'
+import CRUD, { crud, form, header, presenter } from '@crud/crud'
 import rrOperation from '@crud/RR.operation'
 import crudOperation from '@crud/CRUD.operation'
 import udOperation from '@crud/UD.operation'
-import {parseTime} from '@/utils'
+import { parseTime } from '@/utils'
 
 // crud交由presenter持有
 const defaultForm = { id: null, title: null, menuSort: 999, path: null, component: null, componentName: null, iframe: false, roles: [], pid: 0, icon: null, cache: false, hidden: false, type: 0, permission: null }

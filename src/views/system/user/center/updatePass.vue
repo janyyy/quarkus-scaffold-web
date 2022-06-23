@@ -22,7 +22,7 @@
 
 <script>
 import store from '@/store'
-import {updatePass} from '@/api/system/user'
+import { updatePass } from '@/api/system/user'
 
 export default {
   data() {

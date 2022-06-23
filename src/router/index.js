@@ -3,9 +3,9 @@ import store from '@/store'
 import Config from '@/settings'
 import NProgress from 'nprogress' // progress bar
 import 'nprogress/nprogress.css' // progress bar style
-import {getToken} from '@/utils/auth' // getToken from cookie
-import {buildMenus} from '@/api/system/menu'
-import {filterAsyncRouter} from '@/store/modules/permission'
+import { getToken } from '@/utils/auth' // getToken from cookie
+import { buildMenus } from '@/api/system/menu'
+import { filterAsyncRouter } from '@/store/modules/permission'
 
 NProgress.configure({ showSpinner: false })// NProgress Configuration
 

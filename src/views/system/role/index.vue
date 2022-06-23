@@ -117,16 +117,16 @@
 </template>
 
 <script>
-import {parseTime} from '@/utils'
+import { parseTime } from '@/utils'
 import crudRoles from '@/api/system/role'
-import {getDepts, getDeptSuperior} from '@/api/system/dept'
-import {getChild, getMenusTree} from '@/api/system/menu'
-import CRUD, {crud, form, header, presenter} from '@crud/crud'
+import { getDepts, getDeptSuperior } from '@/api/system/dept'
+import { getChild, getMenusTree } from '@/api/system/menu'
+import CRUD, { crud, form, header, presenter } from '@crud/crud'
 import rrOperation from '@crud/RR.operation'
 import crudOperation from '@crud/CRUD.operation'
 import udOperation from '@crud/UD.operation'
 import pagination from '@crud/Pagination'
-import Treeselect, {LOAD_CHILDREN_OPTIONS} from '@riophae/vue-treeselect'
+import Treeselect, { LOAD_CHILDREN_OPTIONS } from '@riophae/vue-treeselect'
 import '@riophae/vue-treeselect/dist/vue-treeselect.css'
 
 const defaultForm = { id: null, name: null, depts: [], description: null, dataScope: '全部', level: 3 }

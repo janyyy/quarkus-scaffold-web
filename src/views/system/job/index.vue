@@ -53,11 +53,11 @@
 </template>
 
 <script>
-import {parseTime} from '@/utils'
+import { parseTime } from '@/utils'
 import crudJob from '@/api/system/job'
 import eHeader from './module/header'
 import eForm from './module/form'
-import CRUD, {presenter} from '@crud/crud'
+import CRUD, { presenter } from '@crud/crud'
 import crudOperation from '@crud/CRUD.operation'
 import pagination from '@crud/Pagination'
 import udOperation from '@crud/UD.operation'

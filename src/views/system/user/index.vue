@@ -202,19 +202,19 @@
 </template>
 
 <script>
-import {parseTime} from '@/utils'
+import { parseTime } from '@/utils'
 import crudUser from '@/api/system/user'
-import {isvalidPhone} from '@/utils/validate'
-import {getDepts, getDeptSuperior} from '@/api/system/dept'
-import {getAll, getLevel} from '@/api/system/role'
-import {getAllJob} from '@/api/system/job'
-import CRUD, {crud, form, header, presenter} from '@crud/crud'
+import { isvalidPhone } from '@/utils/validate'
+import { getDepts, getDeptSuperior } from '@/api/system/dept'
+import { getAll, getLevel } from '@/api/system/role'
+import { getAllJob } from '@/api/system/job'
+import CRUD, { crud, form, header, presenter } from '@crud/crud'
 import rrOperation from '@crud/RR.operation'
 import crudOperation from '@crud/CRUD.operation'
 import udOperation from '@crud/UD.operation'
 import pagination from '@crud/Pagination'
-import Treeselect, {LOAD_CHILDREN_OPTIONS} from '@riophae/vue-treeselect'
-import {mapGetters} from 'vuex'
+import Treeselect, { LOAD_CHILDREN_OPTIONS } from '@riophae/vue-treeselect'
+import { mapGetters } from 'vuex'
 import '@riophae/vue-treeselect/dist/vue-treeselect.css'
 
 let userRoles = []

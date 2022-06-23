@@ -23,9 +23,9 @@
 
 <script>
 import store from '@/store'
-import {validEmail} from '@/utils/validate'
-import {updateEmail} from '@/api/system/user'
-import {resetEmail} from '@/api/system/code'
+import { validEmail } from '@/utils/validate'
+import { updateEmail } from '@/api/system/user'
+import { resetEmail } from '@/api/system/code'
 
 export default {
   props: {

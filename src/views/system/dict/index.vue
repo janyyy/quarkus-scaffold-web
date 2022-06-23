@@ -71,7 +71,7 @@
 <script>
 import dictDetail from './dictDetail'
 import crudDict from '@/api/system/dict'
-import CRUD, {form, header, presenter} from '@crud/crud'
+import CRUD, { form, header, presenter } from '@crud/crud'
 import crudOperation from '@crud/CRUD.operation'
 import pagination from '@crud/Pagination'
 import rrOperation from '@crud/RR.operation'

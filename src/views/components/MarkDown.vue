@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import {upload} from '@/utils/upload'
-import {mapGetters} from 'vuex'
+import { upload } from '@/utils/upload'
+import { mapGetters } from 'vuex'
 
 export default {
   name: 'Markdown',
