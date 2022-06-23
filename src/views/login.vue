@@ -43,10 +43,10 @@
 
 <script>
 import qs from 'qs'
-import Background from '@/assets/images/background.jpg'
-import {getCodeImg} from '@/api/login'
+import Background from '@/assets/images/background.jpeg'
+import { getCodeImg } from '@/api/login'
 import Cookies from 'js-cookie'
-import {encrypt} from '@/utils/rsaEncrypt'
+import { encrypt } from '@/utils/rsaEncrypt'
 import Config from '@/settings'
 
 export default {
