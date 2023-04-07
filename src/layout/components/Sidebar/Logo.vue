@@ -26,7 +26,7 @@ export default {
   },
   data() {
     return {
-      title: 'SENGI-S1',
+      title: 'Quarkus',
       logo: Logo
     }
   }
