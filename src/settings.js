@@ -42,7 +42,7 @@ module.exports = {
   /**
    * 底部文字，支持html语法
    */
-  footerTxt: '© 2021 广州森吉物流有限公司',
+  footerTxt: '© 2021 xxxx',
   /**
    * 备案号
    */
